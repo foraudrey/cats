@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+#audioClip {
+    display: none;
+}
+
 .intro-overlay {
   position: fixed;
   top: 0;

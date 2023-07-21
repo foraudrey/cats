@@ -10,7 +10,7 @@ async function sha256(text) {
 
 
 async function checkPassword() {
-    const hashedCorrectPassword = 'fc578ceac57ad70893018b0a02c66afd56f1114e7f2d45640a73280561f26229';
+    const hashedCorrectPassword = '3ed6ecfcc35bbde439b6a7b0312a6c27672358df832e8c01a592d64117e719e0';
     const passwordInput = document.getElementById('passwordInput');
     const userPassword = passwordInput.value.trim();
     const hashedUserPassword = await sha256(userPassword)
